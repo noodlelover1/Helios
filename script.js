@@ -1071,10 +1071,10 @@ async function fetchExternalContent(url, content, tabIndex) {
 
     const proxies = [
         `https://embeddr.rhw.one/embed#${encodeURIComponent(url)}`,
-  /*      `https://api.cors.lol/?url=${encodeURIComponent(url)}`,
+        `https://api.cors.lol/?url=${encodeURIComponent(url)}`,
         `https://api.codetabs.com/v1/proxy?quest=${encodeURIComponent(url)}`,
         `https://api.codetabs.com/v1/tmp/?quest=${encodeURIComponent(url)}`,
-        `https://api.allorigins.win/raw?url=${encodeURIComponent(url)}` */
+        `https://api.allorigins.win/raw?url=${encodeURIComponent(url)}` 
         /*,
                 `https://corsproxy.io/?url=${encodeURIComponent(url)}`*/
     ];
